@@ -1,0 +1,21 @@
+{
+  "name": "minmax",
+  "version": "1.0.0",
+  "description": "雨夜便利店街角 · Rainy Night Corner Store — three.js r128 rainy-night diorama (offline, vendored deps)",
+  "main": "index.html",
+  "scripts": {
+    "shot": "node tools/shot.js",
+    "inspect": "node tools/inspect.js",
+    "pixel": "node tools/pixel.js",
+    "serve": "python -m http.server 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright-core": "^1.63.0",
+    "three": "^0.128.0"
+  }
+}
