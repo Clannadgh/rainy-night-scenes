@@ -21,7 +21,7 @@ npm run build     # 产出 dist/app.js + dev.html + index.html
 
 | 产物 | 用途 |
 | --- | --- |
-| `index.html` | 发布用单文件（脚本已压缩内联，约 860 KB） |
+| `index.html` | 发布用单文件（脚本已压缩内联，约 844 KB） |
 | `dev.html` | 开发用页面，引用未压缩的 `dist/app.js`，便于断点调试 |
 | `dist/app.js` | esbuild 打包产物（IIFE，未压缩） |
 
